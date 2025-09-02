@@ -1,5 +1,10 @@
 ###
 # Ejercicio 2: calculadora
+# Realiza una calculadora en la que ingresemos los dos valores a operar
+# Y el simbolo de la operación que queremos que se realice "+", "-", "*", "/"
+# Para este ejercicio se usaron condicionales (if:)
+# Aunque aun no se han visto en el contenido del bootcamp
+###
 
 import os
 os.system("cls")
@@ -22,8 +27,14 @@ elif operador == "/":
         print("Error: División entre 0 no está definida.")
 
 
-# Ejercicio 3: Pedir al usuario el valor de la hora trabajada y la cantidad de horas trabajadas.
-# Para que el programa le calcule el valor a cobrar, el valor a pagar de impuesto (8%) y el valor neto.
+###
+# Ejercicio 3: Calculadora de impuesto salarial
+# Pedir al usuario el valor de una hora de trabajo y la cantidad de horas trabajadas.
+# Para que el programa le calcule el valor que se debe cobrar
+# el valor a pagar de impuesto en este caso sera del (8%)
+# Se debe de imprimir el valor neto del sueldo, el valor del suelco con el impuesto aplicado
+# y el valor reducido.
+###
 
 print('\nEjercicio 3: Calculadora de salario')
 valor_hora = float(input('Ingrese el valor que le pagan por hora: '))

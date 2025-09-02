@@ -1,5 +1,11 @@
 ###
-# Listas, son ordenadas y mutables
+# Listas: 
+# Estas son ordenadas lo que significa que mantienen un orden definido
+# Son mutables, lo que significa que se pueden cambiar despues de haber sido creadas
+# Son heterogeneas, lo que implica que pueden contener diferentes tipos de datos
+# Por ultimo son dinámicas, lo que significa que no tienen un tamaño fijo
+# Se identifican porque usan corchetes [] para definirlas
+###
 
 lista_vacia = []
 lista_edades = [23, 34, 70, 41, 50, 29, 30, 36]
@@ -34,7 +40,7 @@ lista_mix = ['Juan', 50, 'Azul', 45.25, 80, 'Sara', 'Azul', 50]
 lista_mix.remove('Juan')    # Elimina el primer elemento que tenga ese nombre exacto 
 print(lista_mix)
 lista_mix = ['Juan', 50, 'Azul', 45.25, 80, 'Sara', 'Azul', 50]
-lista_mix.remove('Azul')
+lista_mix.remove('Azul')    # Elimina el primer elemento que tenga ese nombre exacto 
 print(lista_mix)
 lista_mix = ['Juan', 50, 'Azul', 45.25, 80, 'Sara', 'Azul', 50]
 lista_mix.pop() # Elimina el ultimo elemento en la lista al estar pop() vacio

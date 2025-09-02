@@ -1,6 +1,13 @@
 ###
-# Diccionarios, Coleccion no ordenada de pares, clave-valor y mutables
-#
+# Diccionarios:
+# Coleccion no ordenada de pares que permite almacenar pares clave-valor (key, value)
+# Son mutables, lo que significa que se pueden cambiar despues de haber sido creadas
+# Se identifican porque usan llaver {} para definirlas y su sintaxis es la siguente
+# diccionario = {'nombre': 'Camilo'}
+# 'nombre' es la clave (key)      => la key tiene que ser un str
+# 'Camilo' es el valor (value)    => El valor puede ser de cualquer type
+# Las keys no se pueden repetir, debe de ser unica dentro de cada diccionario
+###
 
 dic_vacio = {}
 dic_info = {'nombre' : 'Camilo',
@@ -9,6 +16,10 @@ dic_info = {'nombre' : 'Camilo',
             'estatura' : 1.75,
             'programas' : ['python', 'java', 'html5']}
 print(dic_info)
+
+# Retornar un valor asociado
+print('\nSi la clave esta asociiada a un valor retorna dicho valor')
+print(dic_info.get('edad', 0))
 
 # Acceder
 print('\nAcceder a un elementro del diccionario')
