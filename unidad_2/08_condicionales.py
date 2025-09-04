@@ -23,13 +23,13 @@ os.system("cls")
 # Si tiene más de 18 años debe de salir un mensaje que diga que permite entrar
 # Si no es mayo de 18 años un mensaje que diga que no puede ingresar
 
-# print('\nEjemplo 1: Control de ingreso a un bar')
-# edad = int(input("Por favor, ingresa tu edad: "))
-# if edad >= 18:
-#     print(f'Tu edad es {edad}, por lo tanto puedes ingresar al bar')
-# else:
-#     print(f'Tu edad es {edad}, asi que no tienes permitido entras')
-# print('Fin del programa19')
+print('\nEjemplo 1: Control de ingreso a un bar')
+edad = int(input("Por favor, ingresa tu edad: "))
+if edad >= 18:
+    print(f'Tu edad es {edad}, por lo tanto puedes ingresar al bar')
+else:
+    print(f'Tu edad es {edad}, asi que no tienes permitido entras')
+print('Fin del programa19')
 
 
 # Ejercicio 7: Calculadora de impuesto salarial
@@ -37,15 +37,15 @@ os.system("cls")
 # Escribir un programa que pregunte al usuario sus ingresos mensuales y muestre por pantalla el valor del impuesto
 # si el usuario tiene que pagar el impuesto o un mensaje si no debe pagar. El impuesto es del 19%.  :,.
 
-# print('\nEjercicio 7: Calculadora de impuesto salarial')
-# ingreso_usuario = float(input('Por favor escriba sus ingresos sin ningun tipo de puntuación: '))
+print('\nEjercicio 7: Calculadora de impuesto salarial')
+ingreso_usuario = float(input('Por favor escriba sus ingresos sin ningun tipo de puntuación: '))
 
-# if ingreso_usuario >= 4500000:
-#     impuesto = ingreso_usuario * .19
-#     ingreso_impuesto = ingreso_usuario - impuesto
-#     print(f'El salario quedaria en ${ingreso_impuesto:,.2f} y el valor descontado por el impuesto es de ${impuesto:,.2f}')
-# else:
-#     print(f'El salario es de ${ingreso_usuario:,.2f} y como es menor a $4,500.000 no paga impuesto')
+if ingreso_usuario >= 4500000:
+    impuesto = ingreso_usuario * .19
+    ingreso_impuesto = ingreso_usuario - impuesto
+    print(f'El salario quedaria en ${ingreso_impuesto:,.2f} y el valor descontado por el impuesto es de ${impuesto:,.2f}')
+else:
+    print(f'El salario es de ${ingreso_usuario:,.2f} y como es menor a $4,500.000 no paga impuesto')
 
 
 ###
@@ -85,32 +85,32 @@ os.system("cls")
 # - Si opción es 3 entonces debemos ver el resultado de a * b
 # - Si opción es 4 entonces debemos ver el resultado de a % b
 
-# print('\nEjemplo 2: Calculadora básica')
-# num_a = float(input('Ingrese el número a: '))
-# num_b = float(input('Ingrese el número b: '))
-# print(
-# '''
-# Elije una opción:
-# 1. Suma
-# 2. Resta
-# 3. Multiplicación
-# 4. Módulo
-# '''
-# )
-# simbolo = int(input('Ingresa el numero de la opción deceada: '))
-# if simbolo == 1:
-#     print(f'El resultado de la suma es: {num_a + num_b}')
-# elif simbolo == 2:
-#     print(f'El resultado de la suma es: {num_a - num_b}')
-# elif simbolo == 3:
-#     print(f'El resultado de la suma es: {num_a * num_b}')
-# elif simbolo == 4:
-#     if num_b != 0:
-#         print(f'El resultado de la suma es: {num_a % num_b}')
-#     elif num_b == 0:
-#         print('El numero b debe de ser diferente de 0')
-# else:
-#     print('Opción incorrecta')
+print('\nEjemplo 2: Calculadora básica')
+num_a = float(input('Ingrese el número a: '))
+num_b = float(input('Ingrese el número b: '))
+print(
+'''
+Elije una opción:
+1. Suma
+2. Resta
+3. Multiplicación
+4. Módulo
+'''
+)
+simbolo = int(input('Ingresa el numero de la opción deceada: '))
+if simbolo == 1:
+    print(f'El resultado de la suma es: {num_a + num_b}')
+elif simbolo == 2:
+    print(f'El resultado de la suma es: {num_a - num_b}')
+elif simbolo == 3:
+    print(f'El resultado de la suma es: {num_a * num_b}')
+elif simbolo == 4:
+    if num_b != 0:
+        print(f'El resultado de la suma es: {num_a % num_b}')
+    elif num_b == 0:
+        print('El numero b debe de ser diferente de 0')
+else:
+    print('Opción incorrecta')
 
 
 ###
@@ -122,16 +122,16 @@ os.system("cls")
 # pagar $5.000 y si es mayor de 18 años, $10.000.
 ###
 
-# print('Ejercicio 8: costo de entradas por edad')
-# edad_cliente = int(input('Ingrese su edad: '))
-# if edad_cliente > 18:
-#     print(f'Ya que tienes {edad_cliente} años debes de pagar $10.000')
-# elif edad_cliente <= 18 and edad_cliente >= 4:
-#     print(f'Ya que tienes {edad_cliente} años debes de pagar $5.000')
-# elif edad_cliente < 4 and edad_cliente > 0:
-#     print(f'Ya que tienes {edad_cliente} años entras gratis')
-# elif edad_cliente <= 0:
-#     print(f'No seas chistoso no puedes tener {edad_cliente} años')
+print('Ejercicio 8: costo de entradas por edad')
+edad_cliente = int(input('Ingrese su edad: '))
+if edad_cliente > 18:
+    print(f'Ya que tienes {edad_cliente} años debes de pagar $10.000')
+elif edad_cliente <= 18 and edad_cliente >= 4:
+    print(f'Ya que tienes {edad_cliente} años debes de pagar $5.000')
+elif edad_cliente < 4 and edad_cliente > 0:
+    print(f'Ya que tienes {edad_cliente} años entras gratis')
+elif edad_cliente <= 0:
+    print(f'No seas chistoso no puedes tener {edad_cliente} años')
 
 
 # Sintaxis Caso 3: Cascada o Anidados
@@ -158,22 +158,22 @@ os.system("cls")
 #     inst_1E
 #     inst_2E
 
-# print('\nEjemplo 3: calculadora')
-# num_1 = float(input('ingresa el primer numero que quieres operar: '))
-# num_2 = float(input('ingresa el segundo numero que quieres operar: '))
-# operador = input('Coloca "+", "-", "*", "/": ')
+print('\nEjemplo 3: calculadora')
+num_1 = float(input('ingresa el primer numero que quieres operar: '))
+num_2 = float(input('ingresa el segundo numero que quieres operar: '))
+operador = input('Coloca "+", "-", "*", "/": ')
 
-# if operador == "+":
-#     print(f"La suma de {num_1} + {num_2} es: {num_1 + num_2}")
-# elif operador == "-":
-#     print(f"La resta de {num_1} - {num_2} es: {num_1 - num_2}")
-# elif operador == "*":
-#     print(f"La multiplicación de {num_1} * {num_2} es: {num_1 * num_2}")
-# elif operador == "/":
-#     if num_2 != 0:
-#         print(f"La división de {num_1} / {num_2} es: {num_1 / num_2}")
-#     else:
-#         print("Error: División entre 0 no está permitido.")
+if operador == "+":
+    print(f"La suma de {num_1} + {num_2} es: {num_1 + num_2}")
+elif operador == "-":
+    print(f"La resta de {num_1} - {num_2} es: {num_1 - num_2}")
+elif operador == "*":
+    print(f"La multiplicación de {num_1} * {num_2} es: {num_1 * num_2}")
+elif operador == "/":
+    if num_2 != 0:
+        print(f"La división de {num_1} / {num_2} es: {num_1 / num_2}")
+    else:
+        print("Error: División entre 0 no está permitido.")
 
 
 # Ejercicio 9: El mayor de 3 numeros
