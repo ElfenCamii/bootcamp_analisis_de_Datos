@@ -39,3 +39,16 @@ La idea es practicar, compartir con mis compañeros y tener un registro de mi pr
 - [05_diccionarios.py](unidad_2/05_diccionarios.py)
 - [06_cast.py](unidad_2/06_cast.py)
 - [07_actividad3.py](unidad_2/07_actividad3.py)
+- [08_condicionales.py](unidad_2/08_condicionales.py)
+- [09_bucles_while.py](unidad_2/09_bucles_while.py)
+- [09_bucles_while_game_1.0.py](unidad_2/09_bucles_while_game_1.0.py)
+- [09_bucles_while_game_2.0.py](unidad_2/09_bucles_while_game_2.0.py)
+- [09_bucles_while_game_2.5.py](unidad_2/09_bucles_while_game_2.5.py)
+- [10_bucles_for.py](unidad_2/10_bucles_for.py)
+
+### 📙 Unidad 7: Ejercicios plataforma
+###   2️⃣ sesion 2:
+- [01_ejercicio1.py](unidad_7/sesion_2/01_ejercicio1.py)
+- [02_ejercicio2.py](unidad_7/sesion_2/02_ejercicio2.py)
+- [03_ejercicio3.py](unidad_7/sesion_2/03_ejercicio3.py)
+- [04_ejercicio4.py](unidad_7/sesion_2/04_ejercicio4.py)
