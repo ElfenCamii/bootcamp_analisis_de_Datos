@@ -1,37 +1,43 @@
 ###
 # Ejercicio 4
-# Puntaje final:
-# Se necesita elaborar un algoritmo en Python que solicite al usuario 
-# el número de respuestas correctas, incorrectas y en blanco correspondiente 
-# a los postulantes y muestre su puntaje final considerando que por cada 
-# respuesta correcta, tendrá 3 puntos, respuestas incorrectas 
-# tendrá -1 y respuestas en blanco será 0 (cero)
+# Tornillo:
+# Cree un programa que solicite el tamaño de un tornillo e imprima su tamaño
+# de acuerdo a las siguientes condiciones: 
+# De 1 cm(incluído) hasta 3 cm(no incluído) es pequeño
+# De 3 cm(incluído) hasta 5 cm(no incluído) es mediano
+# De 5 cm(incluído) hasta 6.5 cm(no incluído) es grande
+# De 6.5cm (incluído) hasta 8.5 cm(no incluído) es muy grande
+# De 8.5 cm(incluído) en adelante es gigante
 
 import os
 os.system('cls')
 
-right = int(input('Numero de respuestas correctas: '))
-wrong = int(input('Numero de respuestas incorrectas: '))
-empty = int(input('Numero de respuestas en blanco: '))
+size = float(input('Ingrese el tamaño del tornillo en centímetros: '))
 
-points_right = right * 3
-points_wrong = wrong * 1
-points = points_right - points_wrong
-
-print(f'el numero de respuestas correctas es {right}, de incorrectas es {wrong}, de nulas es {empty}')
-print(f'Los puntos totales son {points}')
-
+if 1 <= size < 3:
+    print(f'Un tornillo de {size}cm se considera pequeño') 
+elif 3 <= size < 5:
+    print(f'Un tornillo de {size}cm se considera mediano')
+elif 5 <= size < 6.5:
+    print(f'Un tornillo de {size}cm se considera grande')
+elif 6.5 <= size < 8.5:
+    print('Un tornillo de {size}cm se considera muy grande') 
+else:
+    print('Un tornillo de {size}cm se considera gigante')
 
 ###
 # Respuesta esperada por la plataforma
 ###
 
-correctas = int(input('Ingrese el número de respuestas correctas: '))
-incorrectas = int(input('Ingrese el número de respuestas incorrectas: '))
-blanco = int(input('Ingrese el número de respuestas en blanco: '))
+size = float(input('Ingrese el tamaño del tornillo en centímetros: '))
 
-puntaje_correctos = correctas * 3
-puntaje_incorrecto = incorrectas * 1
-puntaje = puntaje_correctos - puntaje_incorrecto
-
-print(f'El puntaje final es: {puntaje}')
+if 1 <= size < 3:
+    print(f'El tornillo es pequeño.') 
+elif 3 <= size < 5:
+    print(f'El tornillo es mediano.')
+elif 5 <= size < 6.5:
+    print(f'El tornillo es grande.')
+elif 6.5 <= size < 8.5:
+    print('El tornillo es muy grande.') 
+else:
+    print('El tornillo es gigante.')
