@@ -69,25 +69,25 @@ print('Fin de la tabla de multiplicar.')
 # Ejemplo 3: Lista del mercado
 # Recibir 5 productos para una lista de mercado.
 
-# print('\nEjemplo 3: Lista del mercado.')
-# products = []
-# cont = 1
-# while cont <= 5:
-#     product = input(f'Ingrese el producto {cont}: ')
-#     products.append(product)
-#     cont += 1
-# print('Lista de mercado:', products)
+print('\nEjemplo 3: Lista del mercado.')
+products = []
+cont = 1
+while cont <= 5:
+    product = input(f'Ingrese el producto {cont}: ')
+    products.append(product)
+    cont += 1
+print('Lista de mercado:', products)
 
 # Ejemplo 3.5: Lista del mercado 2.0
 # Recibir productos para una lista de mercado hasta que el usuario ingrese 'salir'.
 
-# print('\nEjemplo 3.5: Lista del mercado 2.0.')
-# products = []
-# product = input('Ingrese un producto para la lista de mercado (o "salir" para terminar): ')
-# while product.lower() != 'salir':
-#     products.append(product)
-#     product = input('Ingrese otro producto (o "salir" para terminar): ')
-# print('Lista de mercado:', products)
+print('\nEjemplo 3.5: Lista del mercado 2.0.')
+products = []
+product = input('Ingrese un producto para la lista de mercado (o "salir" para terminar): ')
+while product.lower() != 'salir':
+    products.append(product)
+    product = input('Ingrese otro producto (o "salir" para terminar): ')
+print('Lista de mercado:', products)
 
 ###
 ###
@@ -100,29 +100,29 @@ print('Fin de la tabla de multiplicar.')
 
 # While con contador
 
-# print('\nEjercicio 2: Números enteros.')
-# count = 0
-# positive_count = 0
-# negative_count = 0
-# total_sum = 0
-# num = int(input('Ingrese un número entero puede ser negativo o positivo (0 para salir): '))
-# while num != 0:
-#     count += 1
-#     total_sum += num
-#     if num > 0:
-#         positive_count += 1
-#     else:
-#         negative_count += 1
-#     num = int(input('Ingrese otro número entero (0 para salir): '))
-# if count > 0:
-#     average = total_sum / count
-# else:
-#     average = 0
-# print(f'Se ingresaron {count} números.')
-# print(f'Números positivos: {positive_count}')
-# print(f'Números negativos: {negative_count}')
-# print(f'Suma de todos los números: {total_sum}')
-# print(f'Promedio de los números ingresados: {average}')
+print('\nEjercicio 2: Números enteros.')
+count = 0
+positive_count = 0
+negative_count = 0
+total_sum = 0
+num = int(input('Ingrese un número entero puede ser negativo o positivo (0 para salir): '))
+while num != 0:
+    count += 1
+    total_sum += num
+    if num > 0:
+        positive_count += 1
+    else:
+        negative_count += 1
+    num = int(input('Ingrese otro número entero (0 para salir): '))
+if count > 0:
+    average = total_sum / count
+else:
+    average = 0
+print(f'Se ingresaron {count} números.')
+print(f'Números positivos: {positive_count}')
+print(f'Números negativos: {negative_count}')
+print(f'Suma de todos los números: {total_sum}')
+print(f'Promedio de los números ingresados: {average}')
 
 # While True
 
@@ -150,4 +150,3 @@ print(f'Números positivos: {positive_count}')
 print(f'Números negativos: {negative_count}')
 print(f'Suma de todos los números: {total_sum}')
 print(f'Promedio de los números ingresados: {average}')
-
