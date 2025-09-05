@@ -10,7 +10,7 @@ import random as rnd
 
 while True: 
     os.system('cls')
-    print('🤫🤫Juego del número secreto🤐🤐')
+    print('🤫🤫 Juego del número secreto 🤐🤐')
     print('''
         1: Fácil 😴
         2: Normal 😏
@@ -30,19 +30,19 @@ while True:
             num_try += 1
             if num_user == num_random: break
             elif num_user > num_random:
-                if (num_user - num_random) <= 2: print('🔥🔥🔥Estas que te quemas🔥🔥🔥. Elije un número menor!')
-                elif (num_user - num_random) <= 8: print('🔥Estas caliente🔥. Elije un número menor!')
-                elif (num_user - num_random) <= 16: print('🥵Estas tibio🥵. Elije un número menor!')
-                elif (num_user - num_random) <= 24: print('🥶Estas frio🥶. Elije un número menor!')
-                elif (num_user - num_random) <= 30: print('☃️Estas helado☃️. Elije un número menor!')
-                elif (num_user - num_random) <= 50: print('☃️☃️Te congelaste☃️☃️. Elije un número menor!')
+                if (num_user - num_random) <= 2: print('🔥🔥🔥 Estas que te quemas 🔥🔥🔥. Elije un número menor!')
+                elif (num_user - num_random) <= 8: print('🔥 Estas caliente 🔥. Elije un número menor!')
+                elif (num_user - num_random) <= 16: print('🥵 Estas tibio 🥵. Elije un número menor!')
+                elif (num_user - num_random) <= 24: print('🥶 Estas frio 🥶. Elije un número menor!')
+                elif (num_user - num_random) <= 30: print('☃️ Estas helado ☃️. Elije un número menor!')
+                elif (num_user - num_random) <= 50: print('☃️☃️ Te congelaste ☃️☃️. Elije un número menor!')
             else: 
-                if (num_random - num_user) <= 2: print('🔥🔥🔥Estas que te quemas🔥🔥🔥. Elije un número mayor!')
-                elif (num_random - num_user) <= 8: print('🔥Estas caliente🔥. Elije un número mayor!')
-                elif (num_random - num_user) <= 16: print('🥵Estas tibio🥵. Elije un número mayor!')
-                elif (num_random - num_user) <= 24: print('🥶Estas frio🥶. Elije un número mayor!')
-                elif (num_random - num_user) <= 30: print('☃️Estas helado☃️. Elije un número mayor!')
-                elif (num_random - num_user) <= 50: print('☃️☃️Te congelaste☃️☃️. Elije un número mayor!')
+                if (num_random - num_user) <= 2: print('🔥🔥🔥 Estas que te quemas 🔥🔥🔥. Elije un número mayor!')
+                elif (num_random - num_user) <= 8: print('🔥 Estas caliente 🔥. Elije un número mayor!')
+                elif (num_random - num_user) <= 16: print('🥵 Estas tibio 🥵. Elije un número mayor!')
+                elif (num_random - num_user) <= 24: print('🥶 Estas frio 🥶. Elije un número mayor!')
+                elif (num_random - num_user) <= 30: print('☃️ Estas helado ☃️. Elije un número mayor!')
+                elif (num_random - num_user) <= 50: print('☃️☃️ Te congelaste ☃️☃️. Elije un número mayor!')
             numbers_user.append(num_user)
         print(f'🎊🎉elicitaciones🎉🎊. Adivina el numero secreto en tan solo {num_try} intentos')
         print(f'Los numeros que usaste son los siguientes: \n{numbers_user}')
@@ -59,25 +59,25 @@ while True:
             num_try += 1
             if num_user == num_random: break
             elif num_user > num_random:
-                if (num_user - num_random) <= 3: print('🔥🔥🔥Estas que te quemas🔥🔥🔥. Elije un número menor!')
-                elif (num_user - num_random) <= 10: print('🔥Estas caliente🔥. Elije un número menor!')
-                elif (num_user - num_random) <= 20: print('🥵Estas tibio🥵. Elije un número menor!')
-                elif (num_user - num_random) <= 30: print('🥶Estas frio🥶. Elije un número menor!')
-                elif (num_user - num_random) <= 40: print('☃️Estas helado☃️. Elije un número menor!')
-                elif (num_user - num_random) <= 100: print('☃️☃️Te congelaste☃️☃️. Elije un número menor!')
+                if (num_user - num_random) <= 3: print('🔥🔥🔥 Estas que te quemas 🔥🔥🔥. Elije un número menor!')
+                elif (num_user - num_random) <= 10: print('🔥 Estas caliente 🔥. Elije un número menor!')
+                elif (num_user - num_random) <= 20: print('🥵 Estas tibio 🥵. Elije un número menor!')
+                elif (num_user - num_random) <= 30: print('🥶 Estas frio 🥶. Elije un número menor!')
+                elif (num_user - num_random) <= 40: print('☃️ Estas helado ☃️. Elije un número menor!')
+                elif (num_user - num_random) <= 100: print('☃️☃️ Te congelaste ☃️☃️. Elije un número menor!')
             else: 
-                if (num_random - num_user) <= 3: print('🔥🔥🔥Estas que te quemas🔥🔥🔥. Elije un número mayor!')
-                elif (num_random - num_user) <= 10: print('🔥Estas caliente🔥. Elije un número mayor!')
-                elif (num_random - num_user) <= 20: print('🥵Estas tibio🥵. Elije un número mayor!')
-                elif (num_random - num_user) <= 30: print('🥶Estas frio🥶. Elije un número mayor!')
-                elif (num_random - num_user) <= 40: print('☃️Estas helado☃️. Elije un número mayor!')
-                elif (num_random - num_user) <= 100: print('☃️☃️Te congelaste☃️☃️. Elije un número mayor!')
+                if (num_random - num_user) <= 3: print('🔥🔥🔥 Estas que te quemas 🔥🔥🔥. Elije un número mayor!')
+                elif (num_random - num_user) <= 10: print('🔥 Estas caliente 🔥. Elije un número mayor!')
+                elif (num_random - num_user) <= 20: print('🥵 Estas tibio 🥵. Elije un número mayor!')
+                elif (num_random - num_user) <= 30: print('🥶 Estas frio 🥶. Elije un número mayor!')
+                elif (num_random - num_user) <= 40: print('☃️ Estas helado ☃️. Elije un número mayor!')
+                elif (num_random - num_user) <= 100: print('☃️☃️ Te congelaste ☃️☃️. Elije un número mayor!')
             numbers_user.append(num_user)
         print(f'🎊🎉elicitaciones🎉🎊. Adivina el numero secreto en tan solo {num_try} intentos')
         print(f'Los numeros que usaste son los siguientes: \n{numbers_user}')
     elif dif_game == 3:
         print('\nBienvenido a la dificultad Imposible 🤯')
-        print('Tendras que adivinar el numero secreto entre 1 y 100 en solo 5 intentos😮😮')
+        print('Tendras que adivinar el numero secreto entre 1 y 100 en solo 5 intentos 😮😮')
 
         num_random = rnd.randint(1, 100)
         num_try = 0
@@ -110,7 +110,7 @@ while True:
             numbers_user.append(num_user)
 
         if guessed == True:
-            print(f'\n🎊🎉Felicitaciones🎉🎊. Adivinaste el número secreto en {num_try} intentos')
+            print(f'\n🎊🎉 Felicitaciones 🎉🎊. Adivinaste el número secreto en {num_try} intentos')
             print(f'Los números que usaste son: {numbers_user}')
         else:
             print(f'\n😢 Lo siento, te quedaste sin intentos. El número era {num_random}')

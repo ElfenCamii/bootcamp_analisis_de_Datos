@@ -47,8 +47,10 @@ La idea es practicar, compartir con mis compañeros y tener un registro de mi pr
 - [10_bucles_for.py](unidad_2/10_bucles_for.py)
 
 ### 📙 Unidad 7: Ejercicios plataforma
-###   2️⃣ sesion 2:
+#### 2️⃣ sesión 2:
 - [01_ejercicio1.py](unidad_7/sesion_2/01_ejercicio1.py)
 - [02_ejercicio2.py](unidad_7/sesion_2/02_ejercicio2.py)
 - [03_ejercicio3.py](unidad_7/sesion_2/03_ejercicio3.py)
 - [04_ejercicio4.py](unidad_7/sesion_2/04_ejercicio4.py)
+#### 3️⃣ sesión 3:
+- [04_ejercicio4.py](unidad_7/sesion_3/04_ejercicio4.py)
