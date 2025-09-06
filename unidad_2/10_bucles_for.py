@@ -77,10 +77,10 @@ print('Fin de la tabla.')
 # Iterar sobre una cadena
 ###
 
-# palabra = 'esternocleidomastoideo polisomnografia'
+palabra = 'esternocleidomastoideo polisomnografia'
 
-# for caracter in palabra[10:25]:
-#     print(caracter.upper())
+for caracter in palabra[10:25]:
+    print(caracter.upper())
 
 ###
 # Iterar sobre una lista
