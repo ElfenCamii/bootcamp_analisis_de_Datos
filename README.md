@@ -7,7 +7,7 @@ La idea es practicar, compartir con mis compañeros y tener un registro de mi pr
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/ANALISISDEDATOS.git
+   git clone hgit clone https://github.com/ElfenCamii/bootcamp_analisis_de_Datos
    ```
 
 2. Entra a la carpeta del proyecto:
@@ -24,6 +24,11 @@ La idea es practicar, compartir con mis compañeros y tener un registro de mi pr
 ---
 
 ## 📂 Contenido
+
+### 🎮 Games: Juegos realizados
+- [01_adivina_el_numero_1.0.py](games/01_adivina_el_numero_1.0.py)
+- [02_adivina_el_numero_2.0.py](games/02_adivina_el_numero_2.0.py)
+- [03_adivina_el_numero_2.5.py](games/03_adivina_el_numero_2.5.py)
 
 ### 📘 Unidad 1: Introducción a Python
 - [01_inicio.py](unidad_1/01_inicio.py)

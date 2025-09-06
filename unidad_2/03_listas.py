@@ -74,3 +74,7 @@ suma_total = sum(lista_edades)  # Suma todos los valores numericos de la lista
 print(f'Mínimo: {minimo}')
 print(f'Máximo: {maximo}')
 print(f'Suma de todos los elementos: {suma_total}')
+
+# Reperit
+lista_frutas = ['manzanas', 'pera', 'piña', 'mango', 'uvas']
+print(lista_frutas * 2)

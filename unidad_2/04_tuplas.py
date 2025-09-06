@@ -29,3 +29,14 @@ tupla_1 = (1, 2)
 tupla_2 = (3, 4)
 print(f'Concatenacion junta dos tuplas: {tupla_1 + tupla_2}')   # Salida: (1, 2, 3, 4)
 print(f'Repetición retipe x veces una tupla: {tupla_1 * 3}')    # Salida: (1, 2, 1, 2, 1, 2)
+
+# Para crear una tupla no es necesario poner los parentesis ()
+
+tupla_ciudades = 'bogotá', 'medellin', 'popayán', 'cali'
+print(tupla_ciudades)
+
+# Se pueden concatenar tuplas ya que no se modifica sino se crea una nueva tupla
+
+tupla1 = 1, 2
+tupla2 = 3, 4
+print(tupla1 + tupla2)

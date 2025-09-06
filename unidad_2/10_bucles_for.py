@@ -119,6 +119,24 @@ if quantity_notes != 0:
 else:
     print('No ingresaste ninguna nota!!')
 
+# Version mejorada en la que notas fuera de rango no gastan turnos
+# versión del profesor
+
+lista_notas = []
+cant_notas = int(input('Cuantas notas vas a ingresar?: '))
+if cant_notas <= 0:
+  print('Ingresa un número mayor a 0')
+else:
+  for notas in range(cant_notas):
+    nota = float(input('Ingresa la nota: '))
+    while not 0 <= nota <= 5:
+      print('Las notas no están en el rango de evaluación, por favor ingresa un número entre 0 y 5')
+      nota = float(input('Ingresa la nota: '))
+    lista_notas.append(nota)
+  print(f'La nota más alta: {max(lista_notas)}')
+  print(f'La nota más baja: {min(lista_notas)}')
+  print(f'El promedio de las notas: {round(sum(lista_notas)/len(lista_notas), 2)}')
+
 ###
 # tuplas
 # Ejemplo 5:
