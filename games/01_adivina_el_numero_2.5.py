@@ -94,19 +94,19 @@ while True:
                 guessed = True
                 break
             elif num_user > num_random:
-                if (num_user - num_random) <= 3: print('🔥🔥🔥Estas que te quemas🔥🔥🔥. Elije un número menor!')
-                elif (num_user - num_random) <= 10: print('🔥Estas caliente🔥. Elije un número menor!')
-                elif (num_user - num_random) <= 20: print('🥵Estas tibio🥵. Elije un número menor!')
-                elif (num_user - num_random) <= 30: print('🥶Estas frio🥶. Elije un número menor!')
-                elif (num_user - num_random) <= 40: print('☃️Estas helado☃️. Elije un número menor!')
-                elif (num_user - num_random) <= 100: print('☃️☃️Te congelaste☃️☃️. Elije un número menor!')
+                if (num_user - num_random) <= 3: print('🔥🔥🔥 Estas que te quemas 🔥🔥🔥. Elije un número menor!')
+                elif (num_user - num_random) <= 10: print('🔥 Estas caliente 🔥. Elije un número menor!')
+                elif (num_user - num_random) <= 20: print('🥵 Estas tibio 🥵. Elije un número menor!')
+                elif (num_user - num_random) <= 30: print('🥶 Estas frio 🥶. Elije un número menor!')
+                elif (num_user - num_random) <= 40: print('☃️ Estas helado ☃️. Elije un número menor!')
+                elif (num_user - num_random) <= 100: print('☃️☃️ Te congelaste ☃️☃️. Elije un número menor!')
             else: 
-                if (num_random - num_user) <= 3: print('🔥🔥🔥Estas que te quemas🔥🔥🔥. Elije un número mayor!')
-                elif (num_random - num_user) <= 10: print('🔥Estas caliente🔥. Elije un número mayor!')
-                elif (num_random - num_user) <= 20: print('🥵Estas tibio🥵. Elije un número mayor!')
-                elif (num_random - num_user) <= 30: print('🥶Estas frio🥶. Elije un número mayor!')
-                elif (num_random - num_user) <= 40: print('☃️Estas helado☃️. Elije un número mayor!')
-                elif (num_random - num_user) <= 100: print('☃️☃️Te congelaste☃️☃️. Elije un número mayor!')
+                if (num_random - num_user) <= 3: print('🔥🔥🔥 Estas que te quemas 🔥🔥🔥. Elije un número mayor!')
+                elif (num_random - num_user) <= 10: print('🔥 Estas caliente 🔥. Elije un número mayor!')
+                elif (num_random - num_user) <= 20: print('🥵 Estas tibio 🥵. Elije un número mayor!')
+                elif (num_random - num_user) <= 30: print('🥶 Estas frio 🥶. Elije un número mayor!')
+                elif (num_random - num_user) <= 40: print('☃️ stas helado ☃️. Elije un número mayor!')
+                elif (num_random - num_user) <= 100: print('☃️☃️ Te congelaste ☃️☃️. Elije un número mayor!')
             numbers_user.append(num_user)
 
         if guessed == True:
