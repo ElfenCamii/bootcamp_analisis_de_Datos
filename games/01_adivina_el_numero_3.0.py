@@ -9,6 +9,12 @@ import os
 import random as rnd
 
 def menor(random, user):
+    '''
+    Función que nos dice que tal lejos estamos del numero de referencia
+        entradas:
+            random: numero de referencia
+            user: numero dado por el usuario
+    '''
     if (user - random) <= 2: print('🔥🔥🔥 Estas que te quemas 🔥🔥🔥. Elije un número menor!')
     elif (user - random) <= 8: print('🔥 Estas caliente 🔥. Elije un número menor!')
     elif (user - random) <= 16: print('🥵 Estas tibio 🥵. Elije un número menor!')
@@ -17,6 +23,12 @@ def menor(random, user):
     elif (user - random) <= 50: print('☃️☃️ Te congelaste ☃️☃️. Elije un número menor!')
 
 def mayor(random, user):
+    '''
+    Función que nos dice que tal lejos estamos del numero de referencia
+        entradas:
+            random: numero de referencia
+            user: numero dado por el usuario
+    '''
     if (random - user) <= 2: print('🔥🔥🔥 Estas que te quemas 🔥🔥🔥. Elije un número mayor!')
     elif (random - user) <= 8: print('🔥 Estas caliente 🔥. Elije un número mayor!')
     elif (random - user) <= 16: print('🥵 Estas tibio 🥵. Elije un número mayor!')
@@ -25,6 +37,9 @@ def mayor(random, user):
     elif (random - user) <= 50: print('☃️☃️ Te congelaste ☃️☃️. Elije un número mayor!')
 
 def prints():
+    '''
+    Función que imprime el resultado cuando se gana el juego
+    '''
     print(f'🎊🎉elicitaciones🎉🎊. Adivina el numero secreto en tan solo {num_try} intentos')
     print(f'Los numeros que usaste son los siguientes: \n{numbers_user}')
 
