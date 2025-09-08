@@ -20,7 +20,6 @@ while True:
     if dif_game == 1:
         print('\nBienvenido a la dificultad Fácil 😴')
         print('Tendras que adivinar el numero secreto entre 1 y 50')
-
         num_random = rnd.randint(1, 50)
         num_try = 0
         numbers_user = []
@@ -49,7 +48,6 @@ while True:
     elif dif_game == 2:
         print('\nBienvenido a la dificultad Normal 😏')
         print('Tendras que adivinar el numero secreto entre 1 y 100')
-
         num_random = rnd.randint(1, 100)
         num_try = 0
         numbers_user = []
@@ -78,18 +76,15 @@ while True:
     elif dif_game == 3:
         print('\nBienvenido a la dificultad Imposible 🤯')
         print('Tendras que adivinar el numero secreto entre 1 y 100 en solo 5 intentos 😮😮')
-
         num_random = rnd.randint(1, 100)
         num_try = 0
         numbers_user = []
-
 
         while num_try < 5:  # máximo 5 intentos
             num_user = int(input('\nIngresa tu número (entre 1 a 100): '))
             num_try += 1
             numbers_user.append(num_user)
             guessed = False
-
             if num_user == num_random:
                 guessed = True
                 break
@@ -108,14 +103,12 @@ while True:
                 elif (num_random - num_user) <= 40: print('☃️ stas helado ☃️. Elije un número mayor!')
                 elif (num_random - num_user) <= 100: print('☃️☃️ Te congelaste ☃️☃️. Elije un número mayor!')
             numbers_user.append(num_user)
-
         if guessed == True:
             print(f'\n🎊🎉 Felicitaciones 🎉🎊. Adivinaste el número secreto en {num_try} intentos')
             print(f'Los números que usaste son: {numbers_user}')
         else:
             print(f'\n😢 Lo siento, te quedaste sin intentos. El número era {num_random}')
             print(f'Tus intentos fueron: {numbers_user}')
-
     play_again = input("\n¿Quieres jugar otra vez? (s/n): ").lower()
     if play_again != "s":
         print("\nGracias por jugar. ¡Hasta pronto! 👋")

@@ -21,7 +21,6 @@ def menor(random, user):
     elif (user - random) <= 24: print('🥶 Estas frio 🥶. Elije un número menor!')
     elif (user - random) <= 30: print('☃️ Estas helado ☃️. Elije un número menor!')
     elif (user - random) <= 50: print('☃️☃️ Te congelaste ☃️☃️. Elije un número menor!')
-
 def mayor(random, user):
     '''
     Función que nos dice que tal lejos estamos del numero de referencia
@@ -35,7 +34,6 @@ def mayor(random, user):
     elif (random - user) <= 24: print('🥶 Estas frio 🥶. Elije un número mayor!')
     elif (random - user) <= 30: print('☃️ Estas helado ☃️. Elije un número mayor!')
     elif (random - user) <= 50: print('☃️☃️ Te congelaste ☃️☃️. Elije un número mayor!')
-
 def prints():
     '''
     Función que imprime el resultado cuando se gana el juego
@@ -57,7 +55,6 @@ while True:
     if dif_game == 1:
         print('\nBienvenido a la dificultad Fácil 😴')
         print('Tendras que adivinar el numero secreto entre 1 y 50')
-
         num_random = rnd.randint(1, 50)
         num_try = 0
         numbers_user = []
@@ -88,25 +85,21 @@ while True:
     elif dif_game == 3:
         print('\nBienvenido a la dificultad Imposible 🤯')
         print('Tendras que adivinar el numero secreto entre 1 y 100 en solo 5 intentos 😮😮')
-
         num_random = rnd.randint(1, 100)
         num_try = 0
         numbers_user = []
-
-
+        
         while num_try < 5:  # máximo 5 intentos
             num_user = int(input('\nIngresa tu número (entre 1 a 100): '))
             num_try += 1
             numbers_user.append(num_user)
             guessed = False
-
             if num_user == num_random:
                 guessed = True
                 break
             elif num_user > num_random: menor(num_random, num_user)
             else: mayor(num_random, num_user)
             numbers_user.append(num_user)
-
         if guessed == True:
             prints()
         else:
