@@ -129,3 +129,86 @@ while True:
     elif opc == '4': break
     else: print('Opción Incorrecta!!')
 print('Muchas gracias, vuelve pronto!!!')
+
+# Ejemplo 2: Limpieza de datos nulos
+def lim_null(datos, reemplazo):
+    lista_final = []
+    for d in datos:
+        if d is None: lista_final.append(reemplazo)
+        else: lista_final.append(d)
+    return lista_final
+
+lista_num = [2, None, -5, 12, None, 10]
+print(lim_null(lista_num, 20))
+
+# Listas de comprensión
+# Sistaxis [< valor_final > < sistaxis if> < sistaxsi de for>]
+
+list_n = [1, 2, 3, 4, 5, 6, 7, 8 , 9, 10, 11]
+
+# Obtener el cuadrado de cada elemento
+list_f = [x ** 2 for x in list_n]
+print(list_f)
+
+# Obtener el cuadrado de los pares
+lista_f2 = [x ** 2 if x % 2 == 0 else x for x in list_n]
+print(lista_f2)
+
+# Ejemplo 2 con lista de comprensión
+def reempl_null (datos, reemplazo):
+    return [reemplazo if d is None else d for d in datos]
+
+lista_num = [2, None, -5, 12, None, 10]
+print(lim_null(lista_num, 'Holi'))
+
+###
+###
+
+# Ejercicio 1: Promedio de lista
+
+def prom_list(lista):
+    return round((sum(lista) / len(lista)),2)
+
+valores = [10, 20, 30, 40]
+print(prom_list(valores))
+
+# Ejercicio 2: Transformación de datos
+
+def trans_datos(datos):
+    dato_min = min(datos)
+    dato_max = max(datos)
+    return [round((x - dato_min) / (dato_max - dato_min), 2) for x in datos]
+
+lista_valores = [75, 15, 22, 31]
+print(trans_datos(lista_valores))
+
+###
+# funciones lambda
+###
+
+# caso 1: sin argumentos
+
+saludo = lambda: print('Hola mundo')
+saludo()
+
+# caso 2: Con un argumento 
+saludo_2 = lambda nom: print(f'Hola {nom}, cómo estas?')
+area_cuad = lambda lado: lado ** 2
+saludo_2('Camii')
+print(f'El área del cuadrado es: {area_cuad(5)} m2')
+
+# caso 3: Dos o mas argumentos
+area_rect = lambda base, alt: base*alt
+base = int(input('Ingrese la base: '))
+altura = int(input('Ingrese la altura: '))
+print(f'El área del rectangulo es {area_rect(base, altura)} m2')
+
+# Ejemplo 3: Obten el número de caracteres de un texto
+cantidad_texto = lambda texto: len(texto)
+palabra = input('Ingresa una palbra o texto: ')
+print(f'La cantidad de caracteres en tu palabra es: {cantidad_texto(palabra)}')
+
+
+###
+# Tarea: investigar lo que es filter y map para lambda
+###
