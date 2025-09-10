@@ -1,4 +1,4 @@
-####
+###
 # Ejercicio 2
 # Par-impar:
 # Solicita al usuario un número entero e imprime si es par o no
