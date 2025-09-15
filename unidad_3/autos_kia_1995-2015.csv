@@ -1,0 +1,11 @@
+marca,linea,modelo,condición,combustible,color,transmisión,único_dueño,tipo_de_vendedor,kilometraje,puertas,precio
+Kia,Stylus,2011,Usado,Gasolina,Gris,Mecánica,No,Persona Natural,440000,5.0,11500000
+Kia,Picanto,2007,Usado,Gasolina,Blanco,Mecánica,No,Persona Natural,160284,4.0,12500000
+Kia,Picanto,2013,Usado,Gasolina,Negro,Mecánica,No,Persona Natural,90000,5.0,15000000
+Kia,Picanto,2008,Usado,Gasolina,Negro,Mecánica,No,Persona Natural,146732,5.0,16000000
+Kia,Picanto,2014,Usado,Gasolina,Gris,Automática,No,Persona Natural,132000,4.0,20500000
+Kia,Picanto,2014,Usado,Gasolina,Gris,Mecánica,No,Persona Natural,98000,5.0,22000000
+Kia,Rio,2011,Usado,Gasolina,Negro,Mecánica,No,Persona Natural,99500,5.0,22800000
+Kia,Rio,2011,Usado,Gasolina,Negro,Mecánica,No,Persona Natural,100000,5.0,22800000
+Kia,Rio,2012,Usado,Gasolina,Gris,Mecánica,No,Vendedor Profesional,93000,4.0,22900000
+Kia,Carens,2008,Usado,Gasolina,Gris,Mecánica,No,Vendedor Profesional,198113,5.0,23500000
