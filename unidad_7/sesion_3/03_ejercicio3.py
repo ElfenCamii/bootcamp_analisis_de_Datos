@@ -17,3 +17,7 @@ print(f'El pago correspondiente es: {user_cost*user_hours}')
 # Respuesta valida para la plataforma
 ###
 
+user_hours = float(input('Ingrese el número de horas trabajadas: '))
+user_cost = float(input('Ingrese el costo por hora: '))
+
+print(f'El pago que le corresponde es: {user_cost*user_hours}')
