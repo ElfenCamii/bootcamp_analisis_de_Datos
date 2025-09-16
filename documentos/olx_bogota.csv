@@ -1,0 +1,20 @@
+marca,linea,modelo,condición,combustible,color,transmisión,único_dueño,tipo_de_vendedor,kilometraje,puertas,precio
+Chevrolet,Sail,2016,Usado,Gasolina,Azul,Mecánica,No,Persona Natural,50000,4,19200000
+Chery,Nice,2012,Usado,Gasolina,Rojo,Mecánica,No,Persona Natural,55000,5,15000000
+Chevrolet,Optra,2008,Usado,Gasolina,Rojo,Mecánica,No,Persona Natural,126000,5,15500000
+Renault,Logan,2010,Usado,Gasolina,Gris,Mecánica,No,Persona Natural,53000,4,17400000
+Volvo,S60,2013,Usado,Gasolina,Negro,Automática,Sí,Persona Natural,68000,4,52000000
+Renault,Logan,2014,Usado,Gasolina,Negro,Mecánica,No,Persona Natural,73000,4,19000000
+Skoda,Felicia,1998,Usado,Gasolina,Blanco,Mecánica,No,Persona Natural,155000,5,7000000
+Renault,Sandero,2012,Usado,Gasolina,Gris,Mecánica,No,Persona Natural,77481,5,21000000
+Chevrolet,Corsa 2 Ptas.,2004,Usado,Gasolina,Rojo,Mecánica,No,Persona Natural,110000,2,9900000
+Chevrolet,Captiva,2013,Usado,Gasolina,Blanco,Automática,No,Persona Natural,66000,5,28500000
+Chevrolet,Corsa 4 Ptas.,1998,Usado,Gasolina,Verde,Mecánica,No,Persona Natural,210000,4,7900000
+Daihatsu,Sirion,2007,Usado,Gasolina,Negro,Mecánica,Sí,Persona Natural,125000,5,14500000
+Ford,Fiesta,2014,Usado,Gasolina,Blanco,Automática,No,Persona Natural,63000,5,30000000
+Chevrolet,Optra,2010,Usado,Gasolina,Negro,Mecánica,No,Persona Natural,118500,5,18500000
+Renault,Duster,2015,Usado,Gasolina y Gas,Blanco,Mecánica,No,Persona Natural,179000,5,37000000
+Hyundai,Accent,1998,Usado,Gasolina,Verde,Mecánica,No,Persona Natural,75000,4,7800000
+Kia,Rio,2015,Usado,Gasolina,Beige,Mecánica,No,Persona Natural,74000,5,32500000
+Nissan,Sentra,1998,Usado,Gasolina,Rojo,Mecánica,No,Persona Natural,210000,4,10000000
+Kia,Rio,2017,Usado,Gasolina,Gris,Mecánica,Sí,Persona Natural,22700,4,44000000
