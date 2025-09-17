@@ -8,8 +8,8 @@
 
 user_invertion = float(input(': '))
 user_fet = float(input('::'))
-years = float(input(':::'))
+years = int(input(':::'))
 
-capital_final = user_invertion * (1 + (user_fet/100))**years
-
-print(capital_final)
+for year in range(1, years + 1):
+    capital_final = user_invertion * (1 + (user_fet/100))**year
+    print(f'capital final año: {year} es de: {capital_final}')
