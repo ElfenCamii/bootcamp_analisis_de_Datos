@@ -13,3 +13,15 @@ years = int(input(':::'))
 for year in range(1, years + 1):
     capital_final = user_invertion * (1 + (user_fet/100))**year
     print(f'capital final año: {year} es de: {capital_final}')
+
+###
+# Ajuste para la plataforma
+###
+
+user_invertion = float(input('Ingrese la cantidad a invertir: '))
+user_fet = float(input('Ingrese el interés anual (%): '))
+years = int(input('Ingrese el número de años: '))
+
+for year in range(1, years + 1):
+    capital_final = user_invertion * (1 + (user_fet/100))**year
+    print(f'Año {year}: Capital acumulado = {round(capital_final, 2)}')
