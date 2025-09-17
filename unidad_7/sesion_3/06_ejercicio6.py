@@ -22,3 +22,23 @@ else:
         a, b = b, a + b
 
 print(f'Los primeros {n} elementos de la serie Fibonacci son: {fibonacci}')
+
+
+###
+# Ajuste para la plataforma
+###
+
+n = int(input('Ingrese el número de elementos de la serie Fibonacci: '))
+a, b = 0, 1  
+fibonacci = []
+
+if n <= 0:
+    fibonacci = [0]  # caso especial: n=0 → solo mostramos [0]
+elif n == 1:
+    fibonacci = [0, 1]  # caso especial: n=1 → mostramos [0, 1]
+else:
+    for i in range(n):
+        fibonacci.append(a)
+        a, b = b, a + b
+
+print(f'Los primeros {n} elementos de la serie Fibonacci son: {fibonacci}')
