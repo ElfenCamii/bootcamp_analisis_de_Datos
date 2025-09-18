@@ -24,8 +24,42 @@ print("La multiplicación de los números digitados es:", resultado)
 numeros = int(input('inbrese: '))
 resultado = [n * 1 for n in numeros]
 
-# contador = 1
-# while contador == 5:
-#     if contador == 1:
-#         print('El producto de los números ingresados es: 30')
-#         # contador += 1
+###
+# Intento Yudy abdrea Garzon
+###
+
+numero = int(input("Ingrese un número entero: "))
+multiplicacion = 1
+
+while numero < 10:
+    multiplicacion *= numero
+    numero = int(input("Ingrese otro número entero: "))
+
+print("El producto de los números ingresados es:", multiplicacion)
+
+###
+# Intento Andres Giraldo Ramirez
+###
+
+total = 1
+while True:
+    num = int(input("Numero (<10): "))
+    if num >= 10:
+        break
+    total = total * num
+    print("resultado hasta ahora:", total)
+
+print("resultado final:", total)
+
+###
+# Ajuste para la plataforma
+###
+
+numero = int(input(""))
+multiplicacion = 1
+
+while numero < 10:
+    multiplicacion *= numero
+    numero = int(input(""))
+
+print("El producto de los números ingresados es:", multiplicacion)
