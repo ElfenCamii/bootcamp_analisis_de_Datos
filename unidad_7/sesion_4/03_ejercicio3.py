@@ -10,9 +10,15 @@
 # 4. Mostrar lista de todos los clientes de la base datos con su NIT y nombre.
 # 5. Mostrar la lista de clientes preferenciales de la base de datos con su NIT y nombre.
 # 6. Terminar el programa.
-
+preferencial = True
 clients = {
-    
+    '':{
+        'nombre':'',
+        'direccion':'',
+        'telefono':'',
+        'correo':'',
+        'preferencial':preferencial
+    }
 
 
 }
